@@ -1,0 +1,46 @@
+{
+  "INITIAL": {
+    "name": "INITIAL",
+    "title": "Programa de Graduados 2022",
+    "message": "SELECIONE UM SERVICO",
+    "options": [
+      {"option": "1", "display": "Marcar Fila no Balcao ou Agencia", "window": "", "active": true, "action":""},
+      {"option": "2", "display": "Balcoes Proximos", "window": "", "active": true, "action":""},
+      {"option": "3", "display": "Feedback dos Clientes", "window": "", "active": true, "action":""},
+      {"option": "4", "display": "Feedback dos Colaboradores", "window": "", "active": true, "action":""},
+      {"option": "5", "display": "Actualizacao de Dados", "window": "", "active": true, "action":""},
+      {"option": "-1", "display": "", "window": "NIC", "active": false, "action":""}
+    ],
+    "type": "FORM",
+    "auto_process": true,
+    "active": true
+  },
+
+
+  "TIPOSEGUROS": {
+    "name": "TIPOSEGUROS",
+    "title": "Informacao:",
+    "message": "Escolha a seguradora:",
+    "options": [
+      {"option": "1", "display": "Britam", "window": "SEGURONOVOSERVICO", "active": true, "action":""},
+      {"option": "0", "display": "Voltar", "window": "INITIAL", "active": true, "action":""},
+      {"option": "-1", "display": "", "window": "OPCAO_INVALIDA", "active": true, "action":""}
+    ],
+    "type": "FORM",
+    "auto_process": true,
+    "active": true
+  },
+
+  "SEGURONOVOSERVICO": {
+    "name": "SEGURONOVOSERVICO",
+    "title": "Informacao:",
+    "message": "Digite a matricula:",
+    "options": [
+      {"option": "0", "display": "Voltar", "window": "TIPOSEGUROS", "active": true, "action":""},
+      {"option": "-1", "display": "", "window": "SEGUROANUALANOFABRICO", "active": true, "action":"getMatricula"}
+    ],
+    "type": "FORM",
+    "auto_process": true,
+    "active": true
+  }  
+}
