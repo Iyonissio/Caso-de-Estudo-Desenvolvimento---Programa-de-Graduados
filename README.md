@@ -11,6 +11,11 @@ Caso de Estudo: Desenvolvimento - Programa de Graduados
 ## Executar nodo de testes  
 flask run --host=10.50.55.130 --port=8000
 
+
 ## Executar no modo de produção  
 Esta pode ser executada como qualquer aplicação python wsgi desde que essa responda para o endereço desejado
 
+![pg2022](https://user-images.githubusercontent.com/57901563/172116179-3d1274d1-3dae-4fa5-8087-c6fc9a3f99d3.PNG)
+
+
+![Iyonissio Daniel Programa de Graduados](https://user-images.githubusercontent.com/57901563/172116375-7f9a33be-73d0-419b-a716-059b13978dd6.PNG)
